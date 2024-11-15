@@ -1,6 +1,5 @@
-// Relogio.js
 import React, { useState, useEffect } from 'react';
-import './Relogio.css';
+
 
 function Relogio() {
   const [horaAtual, setHoraAtual] = useState(new Date().toLocaleTimeString());
