@@ -4,9 +4,9 @@ import '../Atv03.css';
 
 function Galeria() {
   const users = [
-    { name: 'George', imageUrl: 'https://cdn.icon-icons.com/icons2/2643/PNG/512/female_woman_people_person_avatar_black_tone_icon_159371.png' },
-    { name: 'Felipe', imageUrl: 'https://cdn-icons-png.flaticon.com/512/147/147135.png' },
-    { name: 'Estéfannye', imageUrl: 'https://cdn-icons-png.flaticon.com/512/4975/4975733.png' }
+    { name: 'George', imageUrl: 'https://static.vecteezy.com/system/resources/previews/019/896/008/original/male-user-avatar-icon-in-flat-design-style-person-signs-illustration-png.png' },
+    { name: 'Felipe', imageUrl: 'https://cdn-icons-png.flaticon.com/512/4975/4975733.png' },
+    { name: 'Estéfannye', imageUrl: 'https://cdn-icons-png.flaticon.com/512/147/147135.png' }
   ];
 
   return (

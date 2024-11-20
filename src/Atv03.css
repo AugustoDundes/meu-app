@@ -1,76 +1,91 @@
-
 .container {
-    width: 100%;
-    max-width: 400px;
-    margin: 20px auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    padding: 20px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .perfil {
-    text-align: center;
-  }
-  
-  .perfil-img {
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    margin-bottom: 10px;
-  }
-  
-  .galeria {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  .status {
-    font-weight: bold;
-    padding: 5px;
-  }
-  
-  .online {
-    color: green;
-  }
-  
-  .offline {
-    color: red;
-  }
-  
-  .lista {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .lista li {
-    background-color: #eee;
-    margin: 5px 0;
-    padding: 8px;
-    border-radius: 5px;
-  }
-  
-  .double-value {
-    font-size: 1.2em;
-    color: #333;
-  }
-  
-  .avatar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-  }
-  
-  .avatar-img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    object-fit: cover;
-  }
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f9f9f9; 
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+  border: 1px solid #ddd; 
+}
+
+.perfil {
+  text-align: center;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+}
+
+.perfil-img {
+  border-radius: 50%;
+  width: 90px; 
+  height: 90px;
+  margin-bottom: 10px;
+  border: 2px solid #ddd; 
+}
+
+.galeria {
+  display: flex;
+  flex-direction: column;
+  gap: 12px; 
+}
+
+.status {
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #eaeaea; 
+  color: #555;
+}
+
+.online {
+  color: #28a745; 
+}
+
+.offline {
+  color: #dc3545; 
+}
+
+.lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista li {
+  background-color: #f1f1f1; 
+  margin: 6px 0;
+  padding: 10px;
+  border-radius: 8px;
+  color: #444;
+  transition: background-color 0.3s ease;
+}
+
+.lista li:hover {
+  background-color: #e0e0e0;
+}
+
+.double-value {
+  font-size: 1.3em;
+  color: #222; 
+  font-family: 'Verdana', sans-serif;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.avatar-img {
+  width: 90px; 
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ccc; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}

@@ -14,7 +14,7 @@ function Atv03() {
         <Perfil name="Marcos" imageUrl="https://cdn3d.iconscout.com/3d/premium/thumb/avatar-homem-afro-latino-10971671-8779383.png?f=webp" />
         <Galeria />
         <StatusMessage isOnline={true} />
-        <Lista items={['Componente lista', 'Professora: Carol', 'Fatec Prudente']} />
+        <Lista items={['Componente lista', '', 'Fatec Prudente']} />
         <DoubleValue value={5} />
         <Link to="/">Voltar</Link>
       </div>
