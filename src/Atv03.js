@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import Perfil from './componentes/Perfil';
 import Galeria from './componentes/Galeria';

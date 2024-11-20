@@ -17,9 +17,6 @@ function Home() {
           <li>
             <Link to="/Atv03">Atividade 03</Link>
           </li>
-          <li>
-            <Link to="/Atv04">Atividade 04</Link>
-          </li>
         </ul>
       </nav>
     </div>
