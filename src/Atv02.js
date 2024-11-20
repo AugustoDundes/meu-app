@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import './Atv02.css';
 
 function Atv02() {
   const [homens, setHomens] = useState(0);
