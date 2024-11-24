@@ -18,9 +18,9 @@ function BucketList() {
   };
 
   return (
-    <div className="bucket-list-container">
+    <div>
       <h3>Lista de Arte</h3>
-      <ul className="arte-lista">
+      <ul>
         {listaArte.map((item, index) => (
           <li key={index}>
             {item}{' '}
@@ -29,7 +29,7 @@ function BucketList() {
         ))}
       </ul>
       <h3>Sua lista de arte:</h3>
-      <ul className="minha-lista">
+      <ul>
         {minhaLista.map((item, index) => (
           <li key={index} className={itensFeitos.includes(item) ? 'feito' : ''}>
             {item}{' '}

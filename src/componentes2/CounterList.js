@@ -8,12 +8,12 @@ function CounterList() {
   };
 
   return (
-    <div className="counter-list-container">
+    <div>
       <h3>Lista de Contadores</h3>
       {contadores.map((contador, indice) => (
-        <div key={indice} className="counter-item">
-          <span className="contador">{contador}</span>
-          <button className="increment-button" onClick={() => incrementarContador(indice)}>
+        <div key={indice}>
+          <span>{contador}</span>
+          <button onClick={() => incrementarContador(indice)}>
             +1
           </button>
         </div>

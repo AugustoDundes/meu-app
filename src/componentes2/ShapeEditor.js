@@ -18,10 +18,10 @@ function ShapeEditor() {
   };
 
   return (
-    <div className="shape-editor">
+    <div>
       <h3>Mova os Círculos para Baixo:</h3>
       <button onClick={moverCirculos}>Mover Círculos</button>
-      <div className="shape-container">
+      <div>
         {formas.map((forma, indice) => (
           <div
             key={indice}

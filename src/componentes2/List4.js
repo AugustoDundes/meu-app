@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 
 function List4() {
-  const [itens, setItens] = useState(['Comprar maças', 'Comprar uvas', 'Comprar suco de acerola']);
+  const [itens, setItens] = useState(['Comprar melancia', 'Comprar cenourra', 'Comprar suco']);
 
   const inverterLista = () => {
     setItens([...itens].reverse());
   };
 
   return (
-    <div className="list4">
+    <div>
       <h3>Lista de Compras</h3>
       <button onClick={inverterLista}>Inverter Lista</button>
       <ul>

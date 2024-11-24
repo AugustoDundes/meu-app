@@ -9,9 +9,8 @@ function MovingDot() {
   };
 
   return (
-    <div className="movingdot-container" onMouseMove={handleMouseMove}>
+    <div onMouseMove={handleMouseMove}>
       <div
-        className="dot"
         style={{
           left: `${position.x}px`,
           top: `${position.y}px`,

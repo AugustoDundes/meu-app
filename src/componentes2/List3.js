@@ -12,9 +12,9 @@ function List3() {
   };
 
   return (
-    <div className="list3-container">
+    <div>
       <h3>Adicione Escultores Inspiradores:</h3>
-      <div className="input-container">
+      <div>
         <input
           type="text"
           value={entrada}
@@ -25,7 +25,7 @@ function List3() {
       </div>
       <ul>
         {itens.map((item, indice) => (
-          <li key={indice} className="escultor-item">
+          <li key={indice}>
             {item}
           </li>
         ))}

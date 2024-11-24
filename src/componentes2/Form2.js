@@ -13,9 +13,9 @@ function Form2() {
   };
 
   return (
-    <div className="form2-container">
+    <div>
       <h3>Preencha o Formulário</h3>
-      <form className="form2">
+      <form>
         <label>
           Primeiro Nome:
           <input

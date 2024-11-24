@@ -19,9 +19,9 @@ function Form3() {
   };
 
   return (
-    <div className="form3-container">
+    <div>
       <h3>Formulário de Esculturas</h3>
-      <form className="form3">
+      <form>
         <label>
           Nome:
           <input
@@ -62,7 +62,7 @@ function Form3() {
             placeholder="Link da imagem"
           />
         </label>
-        <div className="suggestion-links">
+        <div>
           <p>Links sugeridos:</p>
           <button
             type="button"

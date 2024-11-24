@@ -3,16 +3,16 @@ import React, { useState } from 'react';
 function Gallery() {
   const esculturas = [
     {
-      nome: "Abaporu",
-      artista: "Tarsila do Amaral",
-      descricao: "Uma das obras mais emblemáticas da arte brasileira, simboliza a antropofagia cultural.",
-      imagem: "https://upload.wikimedia.org/wikipedia/pt/b/bd/Abaporu.jpg",
+      nome: "David",
+      artista: "Michelangelo",
+      descricao: "David ou Davi é uma das esculturas mais famosas do artista renascentista Michelangelo.",
+      imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Michelangelo%27s_David_2015.jpg/245px-Michelangelo%27s_David_2015.jpg",
     },
     {
-      nome: "Monumento às Bandeiras",
-      artista: "Victor Brecheret",
-      descricao: "Um monumento em São Paulo que homenageia os bandeirantes e sua importância histórica.",
-      imagem: "https://www.cidadeecultura.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2018/09/Alf-Ribeiro-0211-0108-cidadeecultura.jpg.webp",
+      nome: "O Pensador",
+      artista: "Auguste Rodin",
+      descricao: "O Pensador (francês: Le Penseur) é uma das mais famosas esculturas de bronze do escultor francês Auguste Rodin.",
+      imagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Paris_2010_-_Le_Penseur.jpg/250px-Paris_2010_-_Le_Penseur.jpg",
     },
   ];
 
@@ -25,7 +25,7 @@ function Gallery() {
   };
 
   return (
-    <div className="gallery">
+    <div>
       <h3>{esculturas[indice].nome}</h3>
       <p>Artista: {esculturas[indice].artista}</p>
       <img

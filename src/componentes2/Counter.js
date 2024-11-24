@@ -12,7 +12,7 @@ function Counter() {
   };
 
   return (
-    <div className="counter">
+    <div>
       <h3>Contador</h3>
       <p>Valor atual: {contador}</p>
       <button onClick={incrementar}>+1</button>

@@ -11,15 +11,14 @@ function Form() {
   };
 
   return (
-    <form onSubmit={enviarMensagem} className="form">
-      <h3 className="form-title">Envie uma mensagem pelo formulário abaixo:</h3>
-      <div className="form-group">
+    <form onSubmit={enviarMensagem}>
+      <h3>Envie uma mensagem pelo formulário abaixo:</h3>
+      <div>
         <label htmlFor="destinatario">Para:</label>
         <select
           id="destinatario"
           value={destinatario}
           onChange={(e) => setDestinatario(e.target.value)}
-          className="form-select"
         >
           <option value="Você">Você mesmo</option>
           <option value="João">João</option>
@@ -27,18 +26,17 @@ function Form() {
         </select>
       </div>
 
-      <div className="form-group">
+      <div>
         <label htmlFor="mensagem">Mensagem:</label>
         <textarea
           id="mensagem"
           value={mensagem}
           onChange={(e) => setMensagem(e.target.value)}
-          className="form-textarea"
           placeholder="Digite sua mensagem"
         />
       </div>
 
-      <button type="submit" className="form-button">
+      <button type="submit">
         Enviar
       </button>
     </form>
