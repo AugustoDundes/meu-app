@@ -46,7 +46,6 @@ function Form2() {
             placeholder="E-mail"
           />
         </label>
-        <button type="submit">Enviar</button>
       </form>
       <p>
         {dadosFormulario.primeiroNome} {dadosFormulario.sobrenome} ({dadosFormulario.email})
