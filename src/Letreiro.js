@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import './Atv01.css';
+
 
 function Letreiro() {
   const texto = 'Conheça a Fatec';

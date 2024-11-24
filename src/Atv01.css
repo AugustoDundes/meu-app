@@ -1,0 +1,72 @@
+/* Geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container da página */
+  h2 {
+    color: #333;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  a:hover {
+    color: #0056b3;
+  }
+  
+  /* Letreiro */
+  h2:first-child {
+    font-size: 1.5rem;
+    color: #555;
+  }
+  
+  h2:last-child {
+    font-size: 1.5rem;
+    color: #007bff;
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  /* Animação para o texto do letreiro */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Relógio */
+  .Relogio {
+    margin-top: 20px;
+    text-align: center;
+    background: #007bff;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #hora {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
