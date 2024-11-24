@@ -1,0 +1,124 @@
+.container {
+    padding: 20px;
+    font-family: "Verdana", sans-serif;
+    line-height: 1.8;
+    max-width: 900px;
+    margin: 20px auto;
+    background: linear-gradient(135deg, #e0f7fa, #80deea);
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #005662;
+    font-size: 26px;
+}
+
+.barra-de-ferramentas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #eceff1;
+    border: 2px solid #b0bec5;
+    border-radius: 10px;
+    padding: 18px;
+    width: 320px;
+    margin: 20px auto;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.barra-de-ferramentas h2 {
+    color: #37474f;
+    font-size: 20px;
+}
+
+.barra-de-ferramentas button {
+    background-color: #26c6da;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 20px;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.barra-de-ferramentas button:hover {
+    background-color: #00acc1;
+    transform: scale(1.05);
+}
+
+.gallery {
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px;
+    background: #f1f8e9;
+    border: 2px dashed #a5d6a7;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    max-width: 450px;
+}
+
+.gallery h3 {
+    margin: 12px 0;
+    font-size: 20px;
+    color: #558b2f;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+
+.gallery button {
+    background-color: #8e24aa;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 14px;
+    margin: 8px 5px;
+    padding: 10px 16px;
+    transition: transform 0.2s ease;
+}
+
+.gallery button:hover {
+    background-color: #6a1b9a;
+    transform: scale(1.1);
+}
+
+.counter {
+    background: radial-gradient(circle, #ffffff, #ffebee);
+    border: 2px solid #f06292;
+    text-align: center;
+    margin: 25px auto;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 320px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.counter h2 {
+    font-size: 28px;
+    color: #880e4f;
+    margin-bottom: 15px;
+}
+
+.counter button {
+    background-color: #ff7043;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.counter button:hover {
+    background-color: #d84315;
+    transform: scale(1.1);
+}
