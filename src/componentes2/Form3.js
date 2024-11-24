@@ -68,7 +68,7 @@ function Form3() {
             type="button"
             onClick={() =>
               copiarLink(
-                'https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/nationalgeographic2710344.webp?w=760&h=509'
+                'https://pt.wikipedia.org/wiki/O_Pensador'
               )
             }
           >
@@ -78,7 +78,7 @@ function Form3() {
             type="button"
             onClick={() =>
               copiarLink(
-                'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Christ_the_Redeemer_-_Cristo_Redentor.jpg/640px-Christ_the_Redeemer_-_Cristo_Redentor.jpg'
+                'https://www.ebiografia.com/escultores_famosos_suas_obras_incriveis/'
               )
             }
           >
