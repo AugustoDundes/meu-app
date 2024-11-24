@@ -29,7 +29,7 @@ function Form3() {
             name="nome"
             value={dadosFormulario.nome}
             onChange={handleChange}
-            placeholder="Digite o nome do escultor"
+            placeholder="Nome do escultor"
           />
         </label>
         <label>
@@ -39,7 +39,7 @@ function Form3() {
             name="titulo"
             value={dadosFormulario.titulo}
             onChange={handleChange}
-            placeholder="Digite o título da obra"
+            placeholder="Título da obra"
           />
         </label>
         <label>
@@ -49,7 +49,7 @@ function Form3() {
             name="cidade"
             value={dadosFormulario.cidade}
             onChange={handleChange}
-            placeholder="Digite a cidade"
+            placeholder="Cidade"
           />
         </label>
         <label>
@@ -59,7 +59,7 @@ function Form3() {
             name="imagem"
             value={dadosFormulario.imagem}
             onChange={handleChange}
-            placeholder="Cole o link da imagem"
+            placeholder="Link da imagem"
           />
         </label>
         <div className="suggestion-links">

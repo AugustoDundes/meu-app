@@ -13,7 +13,6 @@ import List3 from './componentes2/List3';
 import List4 from './componentes2/List4';
 import BucketList from './componentes2/BucketList';
 import MovingDot from './componentes2/MovingDot';
-import './Atv04.css';
 
 function Atv04() {
   return (

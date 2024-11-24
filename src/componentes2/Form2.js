@@ -23,7 +23,7 @@ function Form2() {
             name="primeiroNome"
             value={dadosFormulario.primeiroNome}
             onChange={handleChange}
-            placeholder="Digite seu primeiro nome"
+            placeholder="Primeiro nome"
           />
         </label>
         <label>
@@ -33,7 +33,7 @@ function Form2() {
             name="sobrenome"
             value={dadosFormulario.sobrenome}
             onChange={handleChange}
-            placeholder="Digite seu sobrenome"
+            placeholder="Sobrenome"
           />
         </label>
         <label>
@@ -43,9 +43,10 @@ function Form2() {
             name="email"
             value={dadosFormulario.email}
             onChange={handleChange}
-            placeholder="Digite seu email"
+            placeholder="E-mail"
           />
         </label>
+        <button type="submit">Enviar</button>
       </form>
       <p>
         {dadosFormulario.primeiroNome} {dadosFormulario.sobrenome} ({dadosFormulario.email})

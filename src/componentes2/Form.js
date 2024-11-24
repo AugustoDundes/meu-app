@@ -7,7 +7,7 @@ function Form() {
   const enviarMensagem = (e) => {
     e.preventDefault();
     alert(`Mensagem enviada para ${destinatario}: "${mensagem}"`);
-    setMensagem(''); // Limpa a mensagem após o envio
+    setMensagem('');
   };
 
   return (
@@ -21,9 +21,9 @@ function Form() {
           onChange={(e) => setDestinatario(e.target.value)}
           className="form-select"
         >
-          <option value="Alice">Alice</option>
-          <option value="Ana Carolina">Ana Carolina</option>
-          <option value="Gabriel">Gabriel</option>
+          <option value="Você">Você mesmo</option>
+          <option value="João">João</option>
+          <option value="Vitor">Vitor</option>
         </select>
       </div>
 
@@ -34,7 +34,7 @@ function Form() {
           value={mensagem}
           onChange={(e) => setMensagem(e.target.value)}
           className="form-textarea"
-          placeholder="Digite sua mensagem aqui..."
+          placeholder="Digite sua mensagem"
         />
       </div>
 

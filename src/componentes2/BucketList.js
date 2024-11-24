@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 function BucketList() {
-  const [listaArte, setListaArte] = useState(['Picasso', 'Van Gogh', 'Frida Khalo']);
+  const [listaArte, setListaArte] = useState(['Da vinci', 'Van Gogh']);
   const [minhaLista, setMinhaLista] = useState([]);
   const [itensFeitos, setItensFeitos] = useState([]);
 
@@ -28,7 +28,7 @@ function BucketList() {
           </li>
         ))}
       </ul>
-      <h3>Sua lista de arte para ver:</h3>
+      <h3>Sua lista de arte:</h3>
       <ul className="minha-lista">
         {minhaLista.map((item, index) => (
           <li key={index} className={itensFeitos.includes(item) ? 'feito' : ''}>
